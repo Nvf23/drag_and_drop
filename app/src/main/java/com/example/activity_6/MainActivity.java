@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Recibe el cuadrado arrastrado
         rootLayout.setOnDragListener(new View.OnDragListener() {
             @Override
             public boolean onDrag(View v, DragEvent event) {
